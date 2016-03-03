@@ -11,18 +11,24 @@
         {
             "name": "Community contributors",
             "homepage": "https://github.com/ddeboer/imap/graphs/contributors"
-        }   
+        }
     ],
     "require": {
         "php": ">=5.4.0",
         "ext-imap": "*",
-        "ddeboer/transcoder": "~1"
+        "ddeboer/transcoder": "dev-master"
     },
     "require-dev": {
         "ext-mbstring": "*",
         "ext-iconv": "*",
         "phpunit/phpunit": "~4.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:ctaquu/transcoder.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Ddeboer\\Imap\\": "src/",
