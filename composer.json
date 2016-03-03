@@ -29,12 +29,6 @@
         "ext-iconv": "*",
         "phpunit/phpunit": "~4.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:ctaquu/transcoder.git"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Ddeboer\\Imap\\": "src/",
