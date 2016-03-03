@@ -16,7 +16,7 @@
     "require": {
         "php": ">=5.4.0",
         "ext-imap": "*",
-        "ctaquu/transcoder": "dev-master"
+        "ddeboer/transcoder": "dev-master"
     },
     "repositories": [
         {
