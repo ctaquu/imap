@@ -16,8 +16,14 @@
     "require": {
         "php": ">=5.4.0",
         "ext-imap": "*",
-        "ddeboer/transcoder": "~1"
+        "ctaquu/transcoder": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:ctaquu/transcoder.git"
+        }
+    ],
     "require-dev": {
         "ext-mbstring": "*",
         "ext-iconv": "*",
