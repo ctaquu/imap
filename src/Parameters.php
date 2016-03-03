@@ -33,7 +33,7 @@ class Parameters
     
     protected function decode($value)
     {
-        // this is d shiiiit...
+        // this is it... NEW
         $decoded = '';
         $parts = imap_mime_header_decode($value);
         foreach ($parts as $part) {
