@@ -4,12 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "22a1c026b7b2270ba1c470036ab79a16",
-    "content-hash": "8ef46c2b9b60dee9f0b08d00c0527b62",
+    "hash": "6ec4ba5cee775ab1f8487f789abca7be",
+    "content-hash": "0378682dae9c692254b80bfbe4483e9f",
     "packages": [
         {
             "name": "ddeboer/transcoder",
-            "version": "1.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ctaquu/transcoder.git",
