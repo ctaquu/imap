@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0d54a812cbf275f94adc40928def4679",
-    "content-hash": "3471b3e2820a5dca938db0fdecdd89a4",
+    "hash": "22a1c026b7b2270ba1c470036ab79a16",
+    "content-hash": "8ef46c2b9b60dee9f0b08d00c0527b62",
     "packages": [
         {
             "name": "ddeboer/transcoder",
