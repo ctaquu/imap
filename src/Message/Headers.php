@@ -50,10 +50,18 @@ class Headers extends Parameters
             case 'unseen':
                 return (bool)trim($value);
             case 'date':
-                $value = $this->decode($value);
-                $value = preg_replace('/([^\(]*)\(.*\)/', '$1', $value);
+                try {
 
-                return new \DateTime($value);
+                    $value = $this->decode($value);
+                    $value = preg_replace('/([^\(]*)\(.*\)/', '$1', $value);
+                    return new \DateTime($value);
+
+                } catch (\Exception $e) {
+
+                    return new \DateTime('now');
+                    
+                }
+
             case 'from':
                 return $this->decodeEmailAddress(current($value));
             case 'to':
